@@ -16,3 +16,9 @@ type LinkStorer interface{
 	GetLinkByShort(short string)(*Link,error)
 
 }
+
+
+func NewLink(full string)Link{
+	id:=nanoid
+
+}
